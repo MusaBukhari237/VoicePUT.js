@@ -31,6 +31,7 @@ https://cdn.jsdelivr.net/gh/MusaBukhari237/VoicePUT.js@main/VoicePUT_All.js
 <script>
 var InputType = 'input[type=search]'
 </script>
+and this will enable the VoicePUT.js on all input's which types is search.
 ```
 ---
 Guys This is my first JS library so if you think there is something missing then let me know,
