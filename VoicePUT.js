@@ -6,7 +6,7 @@ if (typeof InputType === 'undefined') {
 
 document.head.innerHTML += `
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+<link href="VoicePUT.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 `;
 var SelectedInput = null;
