@@ -1,8 +1,13 @@
 # VoicePUT.js
  VoicePUT.js is a Simple Add-ON that adds Direct Speech to Text Funtionality for HTML Input's.
 ## CDN
+### Standard
 ```bash
 https://cdn.jsdelivr.net/gh/MusaBukhari237/VoicePUT.js@main/VoicePUT_All.js
+```
+### HTML
+```html
+<script src="https://cdn.jsdelivr.net/gh/MusaBukhari237/VoicePUT.js@main/VoicePUT_All.js"></script>
 ```
 ## Demo
 ```html
