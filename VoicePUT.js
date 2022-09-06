@@ -6,9 +6,43 @@ if (typeof InputType === 'undefined') {
 
 document.head.innerHTML += `
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-<link href="VoicePUT.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 `;
+
+var VoicePUTCSS = document.createElement('style');
+VoicePUTCSS.innerHTML = `
+.GetSpeechButton{
+    z-index: 999999;
+    position: fixed;
+    top: 12%;
+    right: 0;
+    margin: 0px;
+    padding: 12px 15px 12px 20px;
+    background: #008000b0;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    color: #000000ed;
+    cursor: pointer;
+}
+
+.GetSpeechButton > i{
+    font-size: large;
+}
+
+.GetSpeechButton:hover{
+    scale: 1.2;
+}
+
+.GetSpeechButton.disabled {
+   pointer-events: none;
+   opacity: .65;
+}
+`;
+
+
+document.body.appendChild(VoicePUTCSS)
+
+
 var SelectedInput = null;
 var BTN = document.createElement('button');
 BTN.classList.add('GetSpeechButton');
