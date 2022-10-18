@@ -14,6 +14,7 @@ var BTN = document.createElement('button');
 BTN.classList.add('GetSpeechButton');
 BTN.classList.add('disabled');
 BTN.setAttribute('onclick', 'SpeechToText()');
+BTN.setAttribute('title', 'Press Shift + `');
 BTN.innerHTML = `<i class="fas fa-microphone" style="width:20px" ></i>`;
 BTN = document.body.appendChild(BTN);
 
